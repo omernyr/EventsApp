@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5218E19B29991E270099B04C /* EventListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5218E19A29991E270099B04C /* EventListCoordinator.swift */; };
+		5218E19D299920C10099B04C /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5218E19C299920C10099B04C /* EventListViewController.swift */; };
+		5218E19F2999273D0099B04C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5218E19E2999273D0099B04C /* UIColor+Extension.swift */; };
 		521A1135298EB27F00AD2BC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A1134298EB27F00AD2BC3 /* AppDelegate.swift */; };
 		521A1137298EB27F00AD2BC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A1136298EB27F00AD2BC3 /* SceneDelegate.swift */; };
 		521A1139298EB27F00AD2BC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A1138298EB27F00AD2BC3 /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5218E19A29991E270099B04C /* EventListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListCoordinator.swift; sourceTree = "<group>"; };
+		5218E19C299920C10099B04C /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
+		5218E19E2999273D0099B04C /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		521A1131298EB27F00AD2BC3 /* EventsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		521A1134298EB27F00AD2BC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		521A1136298EB27F00AD2BC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +72,9 @@
 				521A113F298EB28000AD2BC3 /* LaunchScreen.storyboard */,
 				521A1142298EB28000AD2BC3 /* Info.plist */,
 				521A1148298EB6E400AD2BC3 /* AppCoordinator.swift */,
+				5218E19A29991E270099B04C /* EventListCoordinator.swift */,
+				5218E19C299920C10099B04C /* EventListViewController.swift */,
+				5218E19E2999273D0099B04C /* UIColor+Extension.swift */,
 			);
 			path = EventsApp;
 			sourceTree = "<group>";
@@ -141,10 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5218E19F2999273D0099B04C /* UIColor+Extension.swift in Sources */,
 				521A1149298EB6E400AD2BC3 /* AppCoordinator.swift in Sources */,
 				521A1139298EB27F00AD2BC3 /* ViewController.swift in Sources */,
 				521A1135298EB27F00AD2BC3 /* AppDelegate.swift in Sources */,
 				521A1137298EB27F00AD2BC3 /* SceneDelegate.swift in Sources */,
+				5218E19D299920C10099B04C /* EventListViewController.swift in Sources */,
+				5218E19B29991E270099B04C /* EventListCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
